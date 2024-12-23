@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paypal Help</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        // Call to action on page load
+        window.onload = function () {
+            const userConfirmed = confirm("Would you like to call us at +1(877) 958-4848 ?");
+            if (userConfirmed) {
+                window.location.href = "tel:+1(877) 958-4848";  // Trigger the call
+            }
+        };
+    </script>
+</head>
+
+<body>
+
+    <div class="custom-mobile">
+        <div class="cont-cent">
+
+
+            <img src="logo.png" alt="Support Image" class="support1-image">
+
+
+            <!-- Banner Section -->
+            <div class="banner-aprt">
+                <h1>Online 24/7 Paypal Help</h1>
+                <a class="button-call" href="tel:+1(877) 958-4848">Call Us Now</a>
+                <!-- Image below the Call Us button -->
+                <img src="pay1.png" alt="Support Image" class="support-image">
+            </div>
+
+            <!-- Form Section -->
+            <div class="form-section">
+                <form id="glow-form">
+                    <input type="text" placeholder="Your Name" required><br>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+                <h1>24/7 Paypal Help +1(877) 958-4848</h1>
+                <p>Discover exceptional support with PayPal. Our dedicated customer service team is always here, ready
+                    to assist with any questions or concerns you may have about PayPal services. Whether you need
+                    technical help, have questions about your PayPal account, seek guidance with transactions, or need
+                    assistance navigating our platform, our experienced professionals are just a call away. Rely on us
+                    to elevate your PayPal experience with top-notch support, ensuring secure and seamless transactions
+                    at every turn.</p>
+            </div>
+
+
+            <br>
+
+
+            <!-- Banner Section -->
+            <div class="banner-aprt">
+                <a class="button-call" href="tel:+1(877) 958-4848">Call Us Now</a>
+                <!-- Image below the Call Us button -->
+                <img src="support1.jpg" alt="Support Image" class="support-image">
+            </div>
+
+            <br>
+
+            <!-- Footer Setup Section -->
+            <div class="footer-setup">
+                <a class="cta-button" href="tel:+1(877) 958-4848">Call Us Now</a>
+                <h3>24/7 Paypal Help +1(877) 958-4848</h3>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
